@@ -11,7 +11,6 @@ export class AppComponent implements OnInit {
 
 // on déclare la variable imageOfTheDay ou on va stocker les images du jour
 
-imageOfTheDay: ImageOfTheDay | undefined
   imageOfTheDay: ImageOfTheDay = {copyright:'',date:'',explanation:'',hdurl:'',media_type:'',service_version:'',title:'',url:''}
 
   //1) on rajoute le constructeur pour récuperer NasaService
